@@ -2,6 +2,7 @@ import json
 import sys
 
 inp = json.load(sys.stdin) #["s-kaleidoscope",["define",["fn-name","n"],["ret","n"]]]
+print(inp)
 
 def compile(exp):
     out =[]
